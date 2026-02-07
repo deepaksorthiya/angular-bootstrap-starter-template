@@ -69,6 +69,17 @@
           },
           "defaultConfiguration": "development"
         },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "/angular-nested-routing-with-guards/",
+            "repo": "https://github.com/deepaksorthiya/angular-nested-routing-with-guards.git",
+            "user": {
+              "name": "deepaksorthiya",
+              "email": "deepak.sorthiya@gmail.com"
+            }
+          }
+        },
         "test": {
           "builder": "@angular/build:unit-test"
         }
