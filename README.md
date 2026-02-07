@@ -10,9 +10,9 @@ A sample Angular project demonstrating nested routing and authentication guards.
 
 ```
 Node: 24+
-Package Manager: npm 11.6+
-Angular CLI: 20.3.15
-Angular: 20.3.16
+Package Manager: npm 11.9+
+Angular CLI: 21.1.3
+Angular: 21.1.0
 ```
 
 ---
