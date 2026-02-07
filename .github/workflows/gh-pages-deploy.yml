@@ -39,7 +39,7 @@ jobs:
         # require to fix 404 issue when page reload
       - name: Copy Of Index file to 404
         run: |
-          cp dist/angular-nested-routing-with-guards/browser/index.html dist/angular-nested-routing-with-guards/browser/404.html
+          cp dist/angular-bootstrap-starter-template/browser/index.html dist/angular-bootstrap-starter-template/browser/404.html
 
       - name: Deploy to Github Pages
         run: |

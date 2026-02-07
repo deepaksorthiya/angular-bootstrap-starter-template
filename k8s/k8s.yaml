@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: angular-nested-routing-with-guards
+  name: angular-bootstrap-starter-template
   namespace: default
 spec:
   replicas: 3
   selector:
     matchLabels:
-      app: angular-nested-routing-with-guards
+      app: angular-bootstrap-starter-template
   template:
     metadata:
       labels:
-        app: angular-nested-routing-with-guards
+        app: angular-bootstrap-starter-template
     spec:
       containers:
-        - name: angular-nested-routing-with-guards
-          image: deepaksorthiya/angular-nested-routing-with-guards:latest
+        - name: angular-bootstrap-starter-template
+          image: deepaksorthiya/angular-bootstrap-starter-template:latest
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
@@ -38,12 +38,12 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: angular-nested-routing-with-guards-service
+  name: angular-bootstrap-starter-template-service
   namespace: default
 spec:
   type: NodePort
   selector:
-    app: angular-nested-routing-with-guards
+    app: angular-bootstrap-starter-template
   ports:
     - port: 8080
       targetPort: 8080

@@ -10,7 +10,7 @@ import { environment } from '../environments/environment';
   styleUrl: './app.scss',
 })
 export class App {
-  protected readonly title = signal('Angular Nested Routing With Guards');
+  protected readonly title = signal('Angular Bootstrap Starter Template');
 
   protected readonly environment;
   constructor() {

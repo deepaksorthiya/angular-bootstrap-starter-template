@@ -19,7 +19,7 @@ describe('App', () => {
     await fixture.whenStable();
     const compiled = fixture.nativeElement as HTMLElement;
     expect(compiled.querySelector('h1')?.textContent).toContain(
-      'Hello, Angular Nested Routing With Guards',
+      'Hello, Angular Bootstrap Starter Template',
     );
   });
 });

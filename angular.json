@@ -7,7 +7,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "angular-nested-routing-with-guards": {
+    "angular-bootstrap-starter-template": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -85,13 +85,13 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "angular-nested-routing-with-guards:build:production"
+              "buildTarget": "angular-bootstrap-starter-template:build:production"
             },
             "development": {
-              "buildTarget": "angular-nested-routing-with-guards:build:development"
+              "buildTarget": "angular-bootstrap-starter-template:build:development"
             },
             "staging": {
-              "buildTarget": "angular-nested-routing-with-guards:build:staging"
+              "buildTarget": "angular-bootstrap-starter-template:build:staging"
             }
           },
           "defaultConfiguration": "development"
@@ -99,8 +99,8 @@
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
           "options": {
-            "baseHref": "/angular-nested-routing-with-guards/",
-            "repo": "https://github.com/deepaksorthiya/angular-nested-routing-with-guards.git",
+            "baseHref": "/angular-bootstrap-starter-template/",
+            "repo": "https://github.com/deepaksorthiya/angular-bootstrap-starter-template.git",
             "user": {
               "name": "deepaksorthiya",
               "email": "deepak.sorthiya@gmail.com"

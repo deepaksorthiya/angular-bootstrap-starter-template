@@ -4,7 +4,7 @@ A sample Angular project demonstrating nested routing and authentication guards.
 
 ## Demo
 
-[Live Demo](https://deepaksorthiya.github.io/angular-nested-routing-with-guards/)
+[Live Demo](https://deepaksorthiya.github.io/angular-bootstrap-starter-template/)
 
 ## Technology Stack
 
@@ -12,7 +12,7 @@ A sample Angular project demonstrating nested routing and authentication guards.
 Node: 24+
 Package Manager: npm 11.9+
 Angular CLI: 21.1.3
-Angular: 21.1.0
+Angular: 21.1.3
 ```
 
 ---
@@ -44,20 +44,9 @@ Angular: 21.1.0
 ## Project Structure
 
 ```
-angular-nested-routing-with-guards/
+angular-bootstrap-starter-template/
 ├── src/
 │   ├── app/
-│   │   ├── account/
-│   │   ├── attendance/
-│   │   ├── dashboard/
-│   │   ├── guards/
-│   │   ├── leaves/
-│   │   ├── login/
-│   │   ├── profile/
-│   │   ├── services/
-│   │   ├── users/
-│   │   └── work/
-│   ├── assets/
 │   ├── environments/
 │   ├── index.html
 │   ├── main.ts
@@ -82,8 +71,8 @@ angular-nested-routing-with-guards/
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/deepaksorthiya/angular-nested-routing-with-guards.git
-   cd angular-nested-routing-with-guards
+   git clone https://github.com/deepaksorthiya/angular-bootstrap-starter-template.git
+   cd angular-bootstrap-starter-template
    ```
 
 2. Install dependencies:
@@ -108,20 +97,20 @@ Open [http://localhost:4200/](http://localhost:4200/) in your browser.
 Build Image
 
 ```sh
-docker build --progress=plain --no-cache -t deepaksorthiya/angular-nested-routing-with-guards .
+docker build --progress=plain --no-cache -t deepaksorthiya/angular-bootstrap-starter-template .
 ```
 
 Run Image
 
 ```sh
-docker run --name angular-nested-routing-with-guards -p 8080:8080 deepaksorthiya/angular-nested-routing-with-guards
+docker run --name angular-bootstrap-starter-template -p 8080:8080 deepaksorthiya/angular-bootstrap-starter-template
 ```
 
 ### Running On Kubernetes Minikube
 
 ```sh
 kubectl apply -f k8s
-kubectl port-forward service/angular-nested-routing-with-guards-service 30001:8080
+kubectl port-forward service/angular-bootstrap-starter-template 30001:8080
 ```
 
 ---
@@ -203,7 +192,7 @@ ng e2e
 To deploy to GitHub Pages:
 
 ```sh
-ng deploy --base-href=/angular-nested-routing-with-guards/
+ng deploy --base-href=/angular-bootstrap-starter-template/
 ```
 
 ---
