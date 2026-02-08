@@ -28,10 +28,18 @@ jobs:
           cache: "npm"
           cache-dependency-path: package-lock.json
 
+      - name: Print Node Npm Versions
+        run: |
+          node -v
+          npm -v
+
       - name: Install npm dependencies
         run: |
-          npm install
           npm ci
+
+      - name: Print All Versions
+        run: |
+          npx ng version
 
       # - name: Build
       #   run: |
