@@ -1,5 +1,5 @@
 import { JsonPipe } from '@angular/common';
-import { Component, signal } from '@angular/core';
+import { Component, signal, VERSION } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { environment } from '../environments/environment';
 
@@ -13,6 +13,7 @@ export class App {
   protected readonly title = signal('Angular Bootstrap Starter Template');
 
   protected readonly environment;
+  version = VERSION.full;
   constructor() {
     console.log('App initialized');
     console.log('API URL:', environment.apiUrl);
