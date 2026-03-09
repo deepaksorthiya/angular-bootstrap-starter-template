@@ -1,5 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
 
+/*  Custom color variables for the application. */
+$primary: #3f51b5;
+$info: #e91e63;
+$success: #04aa6d;
+
+$font-family-sans-serif:
+  'Roboto',
+  system-ui,
+  -apple-system,
+  'Segoe UI',
+  Roboto,
+  'Helvetica Neue',
+  Arial,
+  'Noto Sans',
+  'Liberation Sans',
+  sans-serif,
+  'Apple Color Emoji',
+  'Segoe UI Emoji',
+  'Segoe UI Symbol',
+  'Noto Color Emoji';
+
 /* Importing Bootstrap SCSS file. */
-@use 'bootstrap/scss/bootstrap' as *;
-@use 'bootstrap-icons/font/bootstrap-icons' as *;
+@import 'bootstrap/scss/bootstrap';
+@import 'bootstrap-icons/font/bootstrap-icons';
+
+.angular-logo {
+  max-width: 9.2rem;
+}
