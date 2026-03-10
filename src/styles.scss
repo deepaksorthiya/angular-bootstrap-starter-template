@@ -22,8 +22,8 @@ $font-family-sans-serif:
   'Noto Color Emoji';
 
 /* Importing Bootstrap SCSS file. */
-@import 'bootstrap/scss/bootstrap';
-@import 'bootstrap-icons/font/bootstrap-icons';
+@use 'bootstrap/scss/bootstrap';
+@use 'bootstrap-icons/font/bootstrap-icons';
 
 .angular-logo {
   max-width: 9.2rem;

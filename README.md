@@ -1,6 +1,6 @@
-# Angular Nested Routing with Auth Guards
+# Angular Bootstrap Starter Template
 
-A sample Angular project demonstrating nested routing and authentication guards.
+A sample Angular project with ngb bootstrap.
 
 ## Demo
 
@@ -19,7 +19,6 @@ Angular: 21.2.2
 
 ## Table of Contents
 
-- [Features](#features)
 - [Project Structure](#project-structure)
 - [Getting Started](#getting-started)
 - [Available Scripts](#available-scripts)
@@ -28,16 +27,6 @@ Angular: 21.2.2
 - [Testing](#testing)
 - [Deployment](#deployment)
 - [Additional Resources](#additional-resources)
-
----
-
-## Features
-
-- Nested routing with child modules
-- Route guards for authentication
-- Example components for dashboard, profile, attendance, work, login, and error pages
-- Lazy-loaded modules
-- Angular reactive forms
 
 ---
 
@@ -63,7 +52,7 @@ angular-bootstrap-starter-template/
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/) (v18 or higher recommended)
+- [Node.js](https://nodejs.org/) (v20 or higher recommended)
 - [Angular CLI](https://angular.dev/tools/cli)
 
 ### Installation
