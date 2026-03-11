@@ -36,11 +36,7 @@ const THEMES: Theme[] = [
       <a class="nav-link" ngbDropdownToggle id="demo-site-theme" role="button">
         <span class="bi {{ current().icon }}"></span>
       </a>
-      <div
-        ngbDropdownMenu
-        aria-labelledby="demo-site-theme"
-        class="dropdown-menu dropdown-menu-end"
-      >
+      <div ngbDropdownMenu aria-labelledby="demo-site-theme">
         @for (theme of themes(); track theme) {
           <button
             ngbDropdownItem
